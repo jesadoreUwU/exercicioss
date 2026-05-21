@@ -1,13 +1,16 @@
 #include <stdio.h>
  
 int main() {
-    double A, R;
+ 
+    double raio, n, area;
     
-    scanf("%lf", &R);
+    scanf("%lf", &raio);
     
-    A = 3.14159 * R * R;
+    n = 3.14159;
+    area = n*raio * raio;
     
-    printf("A=%.4f\n", A);
+    printf("A=%.4f\n", area);
     
+ 
     return 0;
 }
