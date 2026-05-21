@@ -10,7 +10,7 @@
     
     tipo2 = ((largura-1)*2 + (comprimento-1)*2);
     
-    printf("%d, %d", tipo1, tipo2);
+    printf("%d\n%d\n", tipo1, tipo2);
 
 return 0;
 }
